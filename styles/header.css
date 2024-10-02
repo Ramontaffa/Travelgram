@@ -1,5 +1,5 @@
 header {
-  padding-block: 32px;
+  padding-block: 2rem;
 }
 
 header .container {
@@ -9,24 +9,24 @@ header .container {
 }
 #Profile {
   display: flex;
-  gap: 32px;
+  gap: 2rem;
 }
 
 #Profile img {
-  width: 176px;
-  height: 176px;
+  width: 11rem;
+  height: 11rem;
   object-fit: cover;
   border-radius: 50%;
 }
 
 #Profile #pi {
-  max-width: 384px;
+  max-width: 24rem;
 }
 
 #Profile h1{
   color: var(--text-color-primary);
   font: var(--text-lg);
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 
 #Profile p{
@@ -38,11 +38,11 @@ header .container {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 280px;
+  gap: 1rem;
+  width: 17.5rem;
 }
 #info li {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: .5rem;
 }
