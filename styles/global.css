@@ -39,7 +39,12 @@ a:hover {
   margin-inline: auto;
 
   @media (width < 80em) {
-    width: 360px;
+    width: 375px;
+    padding-inline: 1rem;
+
+    & img {
+      width: 100%;
+    }
   }
 }
 

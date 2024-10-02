@@ -14,12 +14,23 @@ header .container {
     margin-inline: auto;
 
     #Profile {
+      text-align: left;
       flex-direction: column;
       gap: 1rem;
       margin-inline: 2rem;
+
+      & img {
+        width: 7.5rem;
+        height: 7.5rem;
+      }
     }
     #info {
       margin-inline: 2rem;
+
+      & img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
     }
     
   }
