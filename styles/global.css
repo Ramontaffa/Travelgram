@@ -37,6 +37,10 @@ a:hover {
   padding-inline: 2rem;
   max-width: 80em;
   margin-inline: auto;
+
+  @media (width < 80em) {
+    width: 360px;
+  }
 }
 
 .bg-surface-color{
@@ -47,9 +51,4 @@ a:hover {
   :root{
     --text-lg: bold 1.5rem/125% var(--font-family);
   }
-  
-  body {
-    display: block;
-  }
-
 }
