@@ -1,17 +1,21 @@
 header {
   padding-block: 2rem;
+
+  @media (width < 80em) {
+    padding-block: 0;
+  } 
 }
 
 header .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 21.5rem;
   align-items: center;
 
   @media (width < 80em) {
     grid-template-columns: 1fr;
     gap: 2rem;
     margin-inline: auto;
+    padding-block: 2rem;
 
     #Profile {
       text-align: left;
@@ -48,6 +52,7 @@ header .container {
 }
 
 #Profile #pi {
+  width: 100%;
   max-width: 24rem;
 }
 
