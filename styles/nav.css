@@ -4,11 +4,23 @@ nav {
   align-items: center;
   line-height: 0;
   padding: 1.25rem;
+
+  @media (width < 80em) {
+    ul li{
+      display: none;
+    }
+
+    ul li:first-child, ul li:last-child{
+      display: block;
+      gap: 1rem;
+    }
+  }
 }
 nav ul{
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   padding-block: .5rem;
 }
+

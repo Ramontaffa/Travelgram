@@ -13,9 +13,9 @@
 
   --font-family: "poppins", sans-serif;
   --text-lg: bold 2rem/125% var(--font-family);
-  --text-mid: .875rem/170% var(--font-family);
-  --text-sm: .75rem/170% var(--font-family);
-  --text: 1rem/1.5 var(--font-family);
+  --text-mid: 400 .875rem/170% var(--font-family);
+  --text-sm: 400 .75rem/170% var(--font-family);
+  --text: 400 1rem/1.5 var(--font-family);
 }
 
 body{
@@ -41,4 +41,15 @@ a:hover {
 
 .bg-surface-color{
   background-color: var(--surface-color);
+}
+
+@media (width < 80em) {
+  :root{
+    --text-lg: bold 1.5rem/125% var(--font-family);
+  }
+  
+  body {
+    display: block;
+  }
+
 }
